@@ -10,7 +10,7 @@ class MainClass {
     int age = Convert.ToInt16(Console.ReadLine());
     Console.WriteLine ("I vilken ålder vill gå i pension?");
     int pension = Convert.ToInt16(Console.ReadLine());
-    years_to_pension = pension - age;
+    int years_to_pension = pension - age;
     Console.WriteLine ("Hej " + name + ". Du vill gå i pension när du är " + pension + " år vilket är om " + years_to_pension + " år.");
   } 
 }
